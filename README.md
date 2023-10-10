@@ -9,16 +9,26 @@ Face recognition is a crucial application in computer vision with a wide range o
 
 ## **Machine Learning Steps**
 
-Before diving into the specifics of our face recognition project, let's outline the general machine learning steps we will follow:
-
-1. **Data Collection**: Gather the dataset of face images.
-2. **Data Preprocessing**: Prepare the data for training by resizing images and converting them to numerical format.
-3. **Data Augmentation**: Enhance the dataset by applying data augmentation techniques.
-4. **Model Building**: Construct a CNN architecture for face recognition.
-5. **Model Training**: Train the CNN on the prepared dataset.
-6. **Model Evaluation**: Evaluate the model's performance using appropriate metrics.
-7. **Cross-Validation**: Perform cross-validation to ensure the model's generalization.
-8. **Visualization**: Visualize the results, including comparing actual vs. model predictions.
+1. **Data Collection**:
+    - Gather a dataset of face images featuring four individuals.
+2. **Data Transformation**:
+    - Resize the images to 128x128 pixels.
+    - Convert images into numerical format.
+    - Normalize pixel values to the [0, 1] range.
+3. **Data Augmentation**:
+    - Enhance the dataset with data augmentation techniques to increase diversity.
+4. **Data Splitting**:
+    - Split the data into training (80%), validation (10%), and testing (10%) sets.
+5. **Modeling**:
+    - Construct a Convolutional Neural Network (CNN) architecture tailored for face recognition.
+6. **Model Training**:
+    - Train the CNN using the prepared dataset.
+7. **Model Evaluation**:
+    - Evaluate the model's performance using appropriate metrics.
+    - Utilize cross-validation to ensure generalization.
+    - Analyze the confusion matrix for insights.
+8. **Visualization**:
+    - Visualize and compare actual vs. model predictions for an intuitive understanding.
 
 Now, let's dive into each of these steps in detail.
 
@@ -53,8 +63,8 @@ The problem at hand is a multi-class classification task. Given an input image, 
 
 1. **artifacts**
    - _Explanation_: This folder may contain saved model weights, configurations, or any artifacts resulting from training and experimentation. It's where you store the final trained model for use in deployment.
-2. **images**
-   - _Explanation_: This folder can store image files used for explanatory purposes in Jupyter notebooks or any other documentation.
+2. **Images**
+   - _Explanation_: This folder can store raw image files of individual persons 
 
 ## 01-02 .ipynb Files
 
