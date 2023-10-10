@@ -29,7 +29,7 @@ Face recognition is a crucial application in computer vision with a wide range o
     - Analyze the confusion matrix for insights.
 8. **Visualization**:
     - Visualize and compare actual vs. model predictions for an intuitive understanding.
-
+   
 Now, let's dive into each of these steps in detail.
 
 ## **Objective**
