@@ -1,3 +1,5 @@
+# DL-MultiClassification-FaceRecognition
+
 # **Face Recognition Using Convolutional Neural Networks (CNNs)**
 <img src="https://github.com/Pisit-Janthawee/DL-MultiClassification-FaceRecognition/blob/main/gradio_interface.png" align="center">
 
@@ -43,3 +45,21 @@ The problem at hand is a multi-class classification task. Given an input image, 
 ### **Scope**
 
 **Data Transformation**: Preprocessing steps involve resizing the images to 128x128 pixels and converting them into a suitable format for neural network input. (Resource constraints)
+
+
+# File Description
+
+## Folder
+
+1. **artifacts**
+   - _Explanation_: This folder may contain saved model weights, configurations, or any artifacts resulting from training and experimentation. It's where you store the final trained model for use in deployment.
+2. **images**
+   - _Explanation_: This folder can store image files used for explanatory purposes in Jupyter notebooks or any other documentation.
+
+## 01-02 .ipynb Files
+
+1. **01_init_notebook.ipynb**
+   - _Explanation_: This initial notebook is used for exploring the data and performing data preprocessing tasks as outlined in the "Data Preprocessing" section. Also, CNN model is constructed in this notebook 
+2. **02_deployment.ipynb**
+   - _Explanation_: This notebook focuses on model deployment using Gradio. It provides an easy-to-use interface for displaying input images and model predictions as probabilities.
+
